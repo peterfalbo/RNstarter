@@ -1,2 +1,31 @@
 # RNstarter
-Installs Basic React Native app, Elements, Redux, Thunk, Debugger, Async Storage
+Installs Basic React Native app, Navigation, Elements, Redux, Thunk, Debugger, Async Storage
+
+yarn add @react-navigation/native
+
+REACT NATIVE ELEMENTS
+yarn add @rneui/themed @rneui/base
+yarn add react-native-vector-icons
+yarn add react-native-safe-area-context
+
+
+Added
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+
+function App() {
+  return <SafeAreaProvider>...</SafeAreaProvider>;
+}
+as per https://reactnativeelements.com/docs/installation
+
+yarn add redux react-redux redux-thunk
+yarn add redux-devtools-extension 
+
+Changed this to false in the podfile...
+:hermes_enabled => false,
+After doing this it worked with the standalone debugger
+
+
+yarn add @react-native-async-storage/async-storage
+
+Done all of the above, and starting to "Testing new libraries on App.js (as a demo)"
+
