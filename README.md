@@ -28,4 +28,4 @@ After doing this it worked with the standalone debugger
 yarn add @react-native-async-storage/async-storage
 
 Done all of the above, and starting to "Testing new libraries on App.js (as a demo)"
-
+https://dev.to/roycechua/how-to-make-your-own-custom-react-native-templates-2021-20l5
