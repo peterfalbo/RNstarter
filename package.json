@@ -1,0 +1,8 @@
+{
+  "name": "rnstarter",
+  "version": "0.0.5",
+  "description": "SP React Native Template",
+  "repository": "git@github.com:peterfalbo/RNstarter.git",
+  "author": "Peter Kirkpatrick <pirkpatrick@socialpath.ca>",
+  "license": "MIT"
+}
