@@ -29,3 +29,8 @@ yarn add @react-native-async-storage/async-storage
 
 Done all of the above, and starting to "Testing new libraries on App.js (as a demo)"
 https://dev.to/roycechua/how-to-make-your-own-custom-react-native-templates-2021-20l5
+
+
+TO CREATE A NEW APP WITH THIS TEMPLATE:
+npx react-native init SomeApp --template https://github.com/peterfalbo/rnstarter
+
